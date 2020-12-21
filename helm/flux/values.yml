@@ -18,5 +18,8 @@ memcached:
   verbose: false
 
 git:
-  url: ''
-  b
+  url: 'https://github.com/cdivitotawela/kube-gitops.git'
+  branch: 'master'
+  path: 'flux'
+  readonly: true
+  pollInterval: '1m'
